@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.4.0](https://github.com/kirademiurge/reatom/compare/undo-v3.3.1...undo-v3.4.0) (2024-03-26)
+
+
+### Features
+
+* **undo:** add reatomDynamicUndo, more docs, refactoring ([cd21467](https://github.com/kirademiurge/reatom/commit/cd21467eace6bb163d4bd80ff7869a5b78bc73d7))
+
+
+### Bug Fixes
+
+* **undo:** history slice ([f86f9dd](https://github.com/kirademiurge/reatom/commit/f86f9ddaeb727eaa7c7e15f9168b007c7b185fd5))
+
 ## [3.3.1](https://github.com/artalar/reatom/compare/undo-v3.3.0...undo-v3.3.1) (2023-08-07)
 
 

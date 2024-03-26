@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.4.5](https://github.com/kirademiurge/reatom/compare/testing-v3.4.4...testing-v3.4.5) (2024-03-26)
+
+
+### Bug Fixes
+
+* **testing,jsx:** type improvements ([#639](https://github.com/kirademiurge/reatom/issues/639)) ([d343ac4](https://github.com/kirademiurge/reatom/commit/d343ac4f9549258851235a60e6ef01c24bc2084e))
+* **testing:** deprecate createMockStorage and bump deps ([da28598](https://github.com/kirademiurge/reatom/commit/da28598f0039933db2b181c9e22cb222ae2449bf))
+* **testing:** do not prevent error throwing ([0a9ac03](https://github.com/kirademiurge/reatom/commit/0a9ac03109e508449736230520bf2a14f7553aca))
+
 ## [3.4.4](https://github.com/artalar/reatom/compare/testing-v3.4.3...testing-v3.4.4) (2023-09-26)
 
 

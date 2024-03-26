@@ -1,5 +1,36 @@
 # Changelog
 
+## [3.8.0](https://github.com/kirademiurge/reatom/compare/core-v3.7.0...core-v3.8.0) (2024-03-26)
+
+
+### Features
+
+* **core:** [#578](https://github.com/kirademiurge/reatom/issues/578) add update hooks ([fd5f92a](https://github.com/kirademiurge/reatom/commit/fd5f92abe270f59531ad3af41e8073509eedec4a))
+* **core:** add experimental_PLUGINS ([334759c](https://github.com/kirademiurge/reatom/commit/334759c1e20487545a1276f18c14812a1a080fbe))
+* **core:** make cause not nullable for a user ([b62b9ec](https://github.com/kirademiurge/reatom/commit/b62b9ec968327e5364a16c415ae5822a175ed6b7))
+* **lens:** add match ([#646](https://github.com/kirademiurge/reatom/issues/646)) ([0f2a768](https://github.com/kirademiurge/reatom/commit/0f2a7685dd797cac4c9fc882a8e24bc31f9503a6))
+
+
+### Bug Fixes
+
+* **core:** actualization of unsusbscribed atom ([e388afb](https://github.com/kirademiurge/reatom/commit/e388afbbd120aa8fd9aeb3943cb55691e2930f24))
+* **core:** conditional deps duplication ([c8968a9](https://github.com/kirademiurge/reatom/commit/c8968a9a98f0554f1164b5857a78910cf61f1da4))
+* **core:** do not call updateHooks on init ([300281f](https://github.com/kirademiurge/reatom/commit/300281f1f7610cbe37201be914292d5c811d6cdd))
+* **core:** ensure that ctx collision is impossible ([ecd8d73](https://github.com/kirademiurge/reatom/commit/ecd8d7353cb0c229e80dba26224d0de268bde5ff))
+* **core:** fix type error  (nullable atom) ([#574](https://github.com/kirademiurge/reatom/issues/574)) ([06d123b](https://github.com/kirademiurge/reatom/commit/06d123ba118ac98996d6653ab2377e56516ad84b))
+* **core:** hide spy for updateHooks ([344d2ce](https://github.com/kirademiurge/reatom/commit/344d2ce10676f49999c8c3fb973109e1ac42c57c))
+* **core:** improve cause tracking ([f578511](https://github.com/kirademiurge/reatom/commit/f578511f8b2a44bc91d3b9f82a791229c095193f))
+* **core:** nested schedule ([61b3822](https://github.com/kirademiurge/reatom/commit/61b38225b8f7de8eefd7f8f7f6ec079d1ef6de84))
+* **core:** onCall types ([d3c6940](https://github.com/kirademiurge/reatom/commit/d3c6940ca1f6001a4136e558cf00965de304a6ab))
+* **core:** onChange, onCall types ([581e7a0](https://github.com/kirademiurge/reatom/commit/581e7a01f1f7ba033744f0b508af718b287f5f7f))
+* **core:** prev value of spy callback ([0abdec0](https://github.com/kirademiurge/reatom/commit/0abdec08c50de9c6622e71b67a4f063aaa9f9343))
+* **core:** reduce mem usage a little bit ([53c101d](https://github.com/kirademiurge/reatom/commit/53c101de190137a078c18900711dd159373635b5))
+* **core:** small mem improvement ([fd24970](https://github.com/kirademiurge/reatom/commit/fd249701d4f527460443a8cf651d33b3bf153cb4))
+* **core:** unify cause setter ([e565d1f](https://github.com/kirademiurge/reatom/commit/e565d1fd647583bbb6098b3b41024c9b7d458439))
+* **core:** update hook for atom without cache ([d4c164a](https://github.com/kirademiurge/reatom/commit/d4c164ad9b17406adaae7baa7e3e337df0e43a3d))
+* **core:** updateHooks should be called only for computers ([acfa682](https://github.com/kirademiurge/reatom/commit/acfa68243e6d48323a90dceb81755e5826cd9215))
+* **core:** use only change cause ([21752ad](https://github.com/kirademiurge/reatom/commit/21752ad6255f6c3ba0634c50da05fae3d401b7bd))
+
 ## [3.7.0](https://github.com/artalar/reatom/compare/core-v3.6.6...core-v3.7.0) (2024-02-16)
 
 

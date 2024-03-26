@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.7.0](https://github.com/kirademiurge/reatom/compare/timer-v3.6.0...timer-v3.7.0) (2024-03-26)
+
+
+### Features
+
+* **timer:** add passed option to startTimer ([2ba31a4](https://github.com/kirademiurge/reatom/commit/2ba31a45041ed1009d59a7628fc530dd8faa7027))
+
+
+### Bug Fixes
+
+* **timer:** delay overflow ([3113e07](https://github.com/kirademiurge/reatom/commit/3113e07bf0a06e9f53f40a72807634e457624719))
+* **timer:** do not allow the timer mutations ([05643d8](https://github.com/kirademiurge/reatom/commit/05643d87eb0d8e8000581adfcb20deb2d2bb4169))
+* **timer:** use ctx.schedule for each iteration ([302cf99](https://github.com/kirademiurge/reatom/commit/302cf9919036267c45fff4c2c865eac89248944f))
+
 ## [3.6.0](https://github.com/artalar/reatom/compare/timer-v3.5.6...timer-v3.6.0) (2024-02-13)
 
 

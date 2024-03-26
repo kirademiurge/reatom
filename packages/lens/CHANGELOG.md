@@ -1,5 +1,29 @@
 # Changelog
 
+## [3.10.0](https://github.com/kirademiurge/reatom/compare/lens-v3.9.1...lens-v3.10.0) (2024-03-26)
+
+
+### Features
+
+* **jsx:** nested atoms, better types ([#652](https://github.com/kirademiurge/reatom/issues/652)) ([3ceae78](https://github.com/kirademiurge/reatom/commit/3ceae788da52ff40a561ce5b2fc5371475fb7d7c))
+* **lens:** add abortable option to delay ([d532f1c](https://github.com/kirademiurge/reatom/commit/d532f1c0c3f207827136cd5804d57aa337e4665d))
+* **lens:** add match ([#646](https://github.com/kirademiurge/reatom/issues/646)) ([0f2a768](https://github.com/kirademiurge/reatom/commit/0f2a7685dd797cac4c9fc882a8e24bc31f9503a6))
+* **lens:** add match().with ([f61dddc](https://github.com/kirademiurge/reatom/commit/f61dddc858fda9921117acd472cc4e4e71cdd47e))
+* **lens:** add select api ([f39f1dd](https://github.com/kirademiurge/reatom/commit/f39f1dd5434462f8466c892342dd8b6c29d70162))
+* **lens:** use onChange and onCall in "plain" and "readonly" ([fb50938](https://github.com/kirademiurge/reatom/commit/fb50938aba30ffefb99f570b894a58df489d2d44))
+* **match:** api redesign (it isn't published yet) ([0e9554e](https://github.com/kirademiurge/reatom/commit/0e9554e8e493b70912f6efd23c69731cfa60ebb8))
+* **match:** remove equal method ([c1d077c](https://github.com/kirademiurge/reatom/commit/c1d077c99944116a301f0cc0c24aade6a27e7351))
+* **utils:** add isRec ([444c4f6](https://github.com/kirademiurge/reatom/commit/444c4f6c528092a59bdd332218b3d42c88351999))
+
+
+### Bug Fixes
+
+* **lens:** dont allow non-recs as match.with input ([#675](https://github.com/kirademiurge/reatom/issues/675)) ([3c6e8bc](https://github.com/kirademiurge/reatom/commit/3c6e8bc1425cb0c5a6fbde4d78f81c1ab15c7cf9))
+* **lens:** mapName usage ([8865ce0](https://github.com/kirademiurge/reatom/commit/8865ce0654bf468e560ef3f238611f5168db5925))
+* **lens:** match default case ([27061af](https://github.com/kirademiurge/reatom/commit/27061af1ac338f5223190d110cf6e090d884e203))
+* **lens:** remove spy from effect ([ece3c86](https://github.com/kirademiurge/reatom/commit/ece3c8662a1fe69e8dc897b8ff252feb57cd5273))
+* **lens:** select export ([fd776cf](https://github.com/kirademiurge/reatom/commit/fd776cf6a5ca36beb9e3581315abb8afe7ca2050))
+
 ## [3.9.1](https://github.com/artalar/reatom/compare/lens-v3.9.0...lens-v3.9.1) (2023-11-25)
 
 

@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.4.0](https://github.com/kirademiurge/reatom/compare/persist-web-storage-v3.3.3...persist-web-storage-v3.4.0) (2024-03-26)
+
+
+### Features
+
+* **persist-web-storage:** add withBroadcastChannel and withIndexedDb ([#740](https://github.com/kirademiurge/reatom/issues/740)) ([fe74b4a](https://github.com/kirademiurge/reatom/commit/fe74b4ab4e0007cb7ae417f156ef65e4d0b4ce42))
+
+
+### Bug Fixes
+
+* **persist-web-storage:** fix getting initialState for BroadcastChannel and IDB adapters ([#755](https://github.com/kirademiurge/reatom/issues/755)) ([5302c57](https://github.com/kirademiurge/reatom/commit/5302c575a0bb3c27d1d7935961db362b0d651f2d))
+* **persist-web-storage:** indexedDB is not defined ([e5a527b](https://github.com/kirademiurge/reatom/commit/e5a527b12c60dbea3383a32154a5cd2352849ce1))
+* **persist-web-storage:** init logic, types ([6921517](https://github.com/kirademiurge/reatom/commit/69215171b55107549a886fc05cc983a091ee2bcc))
+* **persist-web-storage:** isWebStorageAvailable check ([3e21b28](https://github.com/kirademiurge/reatom/commit/3e21b28e061bea255235498e803239183eea4243))
+* **persist-web-storage:** memCache management ([72d6f89](https://github.com/kirademiurge/reatom/commit/72d6f898244ae7818a3b7b0b01043beb851094df))
+* **persist-web-storage:** rm `fromState` work ([106fdca](https://github.com/kirademiurge/reatom/commit/106fdca81fd1644d374ae70755cbcfbcbafd2583))
+* **persist-web-storage:** types ([ab0e826](https://github.com/kirademiurge/reatom/commit/ab0e8261f39d81998bccc6425f3dee577143da7c))
+* **persist-web-storage:** wrap memCache to atom ([c8ebba7](https://github.com/kirademiurge/reatom/commit/c8ebba732ea613b01112f0abd51334299ed05f15))
+
 ## [3.3.3](https://github.com/artalar/reatom/compare/persist-web-storage-v3.3.2...persist-web-storage-v3.3.3) (2024-03-24)
 
 

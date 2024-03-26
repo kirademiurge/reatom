@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.8](https://github.com/kirademiurge/reatom/compare/core-v1-v3.1.7...core-v1-v3.1.8) (2024-03-26)
+
+
+### Bug Fixes
+
+* **core-v1:** stale unconnected atom ([60f677c](https://github.com/kirademiurge/reatom/commit/60f677cd4b18bf88a2195da2b67c0a1de8f1b585))
+
 ## [3.1.7](https://github.com/artalar/reatom/compare/core-v1-v3.1.6...core-v1-v3.1.7) (2023-07-12)
 
 

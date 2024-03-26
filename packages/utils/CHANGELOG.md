@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.10.0](https://github.com/kirademiurge/reatom/compare/utils-v3.9.0...utils-v3.10.0) (2024-03-26)
+
+
+### Features
+
+* **jsx:** nested atoms, better types ([#652](https://github.com/kirademiurge/reatom/issues/652)) ([3ceae78](https://github.com/kirademiurge/reatom/commit/3ceae788da52ff40a561ce5b2fc5371475fb7d7c))
+* **lens:** add match ([#646](https://github.com/kirademiurge/reatom/issues/646)) ([0f2a768](https://github.com/kirademiurge/reatom/commit/0f2a7685dd797cac4c9fc882a8e24bc31f9503a6))
+* **lens:** add match().with ([f61dddc](https://github.com/kirademiurge/reatom/commit/f61dddc858fda9921117acd472cc4e4e71cdd47e))
+* **utils:** add isRec ([444c4f6](https://github.com/kirademiurge/reatom/commit/444c4f6c528092a59bdd332218b3d42c88351999))
+* **utils:** add MAX_SAFE_TIMEOUT ([17a23d2](https://github.com/kirademiurge/reatom/commit/17a23d2917d42855c0b2872e0c504e5d1ed83172))
+* **utils:** add merge ([7d7063a](https://github.com/kirademiurge/reatom/commit/7d7063a5eaff2b6f2f0f1677d4d3bba34dad38a8))
+* **utils:** add throwAbort ([a991be1](https://github.com/kirademiurge/reatom/commit/a991be1153c8b1c3c929a7eabcc9328e022b8eff))
+* **utils:** add typed keys and entries ([ed3c205](https://github.com/kirademiurge/reatom/commit/ed3c205259d39cea018938c2b14794dbfd994c00))
+* **utils:** improve throwIfAborted signature ([d57946d](https://github.com/kirademiurge/reatom/commit/d57946d294285f5f51714a1ffc873928ae7cf079))
+
 ## [3.9.0](https://github.com/artalar/reatom/compare/utils-v3.8.0...utils-v3.9.0) (2024-02-05)
 
 

@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.4.0](https://github.com/kirademiurge/reatom/compare/persist-v3.3.0...persist-v3.4.0) (2024-03-26)
+
+
+### Features
+
+* **persist:** add createMemStorage ([98e23c8](https://github.com/kirademiurge/reatom/commit/98e23c89cc56a18be7f2252b6f9e0b90abe4cbc0))
+
+
+### Bug Fixes
+
+* **persist:** cyclic updates ([c1321e3](https://github.com/kirademiurge/reatom/commit/c1321e34cb9893ed5c8041d8e2c3c51c73bb80b6))
+* **persist:** improve an update necessities track ([e4afa65](https://github.com/kirademiurge/reatom/commit/e4afa6528becc333c97cffac5550621b4525cb81))
+
 ## [3.3.0](https://github.com/artalar/reatom/compare/persist-v3.2.2...persist-v3.3.0) (2023-07-12)
 
 

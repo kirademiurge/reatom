@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.3.0](https://github.com/kirademiurge/reatom/compare/form-web-v3.2.0...form-web-v3.3.0) (2024-03-26)
+
+
+### Features
+
+* **form-web:** sync state changes with the element ([8e097f6](https://github.com/kirademiurge/reatom/commit/8e097f6e26b24ba9b081cd9ca5819457d0f3038a))
+
+
+### Bug Fixes
+
+* **form-web:** keep original element type ([#651](https://github.com/kirademiurge/reatom/issues/651)) ([8b35c31](https://github.com/kirademiurge/reatom/commit/8b35c31dfb8c2eef7b5a00d2dbf6218d69b374b6))
+
 ## [3.2.0](https://github.com/artalar/reatom/compare/form-web-v3.1.5...form-web-v3.2.0) (2023-11-05)
 
 

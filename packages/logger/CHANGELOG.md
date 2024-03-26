@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.7.0](https://github.com/kirademiurge/reatom/compare/logger-v3.6.0...logger-v3.7.0) (2024-03-26)
+
+
+### Features
+
+* **jsx:** nested atoms, better types ([#652](https://github.com/kirademiurge/reatom/issues/652)) ([3ceae78](https://github.com/kirademiurge/reatom/commit/3ceae788da52ff40a561ce5b2fc5371475fb7d7c))
+* **logger:** add shouldLogGraph ([39ea646](https://github.com/kirademiurge/reatom/commit/39ea64680cdf0dea23045e7d13c6a45e927df541))
+
+
+### Bug Fixes
+
+* **logger:** add transactions list log ([f171f99](https://github.com/kirademiurge/reatom/commit/f171f99af5d120235222bb7bc293c808c95c84d9))
+* **logger:** catch error in logs processing ([48f2884](https://github.com/kirademiurge/reatom/commit/48f2884e9cfc65ba2d952d586125493474c19ec6))
+* **logger:** filter changed state ([d9019a2](https://github.com/kirademiurge/reatom/commit/d9019a2acb34bdd09d89aa0028754269d4024852))
+* **logger:** filtered action handler ([0fc5587](https://github.com/kirademiurge/reatom/commit/0fc5587cc28df45f23aca0985ce822fbaf410812))
+* **logger:** improve getCause ([856853d](https://github.com/kirademiurge/reatom/commit/856853d4dad0387773dd54358c3f8addc7e11cce))
+
 ## [3.6.0](https://github.com/artalar/reatom/compare/logger-v3.5.0...logger-v3.6.0) (2023-10-09)
 
 

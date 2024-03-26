@@ -1,5 +1,53 @@
 # Changelog
 
+## [3.14.0](https://github.com/kirademiurge/reatom/compare/async-v3.13.6...async-v3.14.0) (2024-03-26)
+
+
+### Features
+
+* **async:** add "ignoreAbort" and refactor withCache ([f404abf](https://github.com/kirademiurge/reatom/commit/f404abfa36e91db9d109094eee672098ad7c6536))
+* **async:** add initState to errorAtom ([6852b72](https://github.com/kirademiurge/reatom/commit/6852b7291ccc4fb6acfb9ecfb48d3c2326fa78ee))
+* **async:** add reatomAsyncReaction ([e44e641](https://github.com/kirademiurge/reatom/commit/e44e6417b5795c380e8c2e5dd1e576e7a6462bc0))
+* **async:** add reset action to statusesAtom ([7803168](https://github.com/kirademiurge/reatom/commit/78031689792d7737641fc822324dbe482c4a8fec))
+* **async:** add shouldPending and swrPendingAtom ([103e30c](https://github.com/kirademiurge/reatom/commit/103e30c7aa8bd7879da347d2653389a39221d952))
+* **async:** deprecate reatomAsyncReaction in favor of reatomReactiveAsync ([678adf2](https://github.com/kirademiurge/reatom/commit/678adf2b337b6a895f94e5997739274822332c4f))
+* **async:** refactor withCache, add shouldFulfill option for SWR ([eb54d34](https://github.com/kirademiurge/reatom/commit/eb54d34598ad48dd51ee21cfd2e3c0964bfdc7ae))
+
+
+### Bug Fixes
+
+* **async:** abort should not stale for reatomAsyncReaction ([2a7e272](https://github.com/kirademiurge/reatom/commit/2a7e2720bb5e8a681128eac161535e350fc04c59))
+* **async:** activate resource on pending connection ([81f19b9](https://github.com/kirademiurge/reatom/commit/81f19b996c0a2535b2c9056dd4197f447620604f))
+* **async:** add mapFulfill to dataAtom for correct cache init ([994c0ff](https://github.com/kirademiurge/reatom/commit/994c0ff483c0c8aafea276bc4bc6006bc7b5a1b9))
+* **async:** allow empty deps for reatomResource ([47c9a2e](https://github.com/kirademiurge/reatom/commit/47c9a2e4350522ca39af3c5c4cf848a1ad5f967a))
+* **async:** allow optional resetTrigger for withErrorAtom ([185f99d](https://github.com/kirademiurge/reatom/commit/185f99db81541ad72c18b5360517a89a08386807))
+* **async:** dataAtom should be computed first ([8aab299](https://github.com/kirademiurge/reatom/commit/8aab299916f35afc0cb89983c58eeb4ae5b237cb))
+* **async:** do not cache aborted promise ([1b6fbe8](https://github.com/kirademiurge/reatom/commit/1b6fbe83ae10a0b170996a16c272a1783d77cb39))
+* **async:** drop retriesAtom if onReject returns undefined ([77e71b3](https://github.com/kirademiurge/reatom/commit/77e71b3cafe79732a5611d4983778ed90d95f69e))
+* **async:** errorAtom AtomMut ([774ebc0](https://github.com/kirademiurge/reatom/commit/774ebc0c649cac50073c0bdeae47a27780577c5c))
+* **async:** errorAtom: AtomMut ([a1349a8](https://github.com/kirademiurge/reatom/commit/a1349a8118366a75d4cb9bf40d6e94274a2a87f2))
+* **async:** improve withStatusesAtom update order ([316bac5](https://github.com/kirademiurge/reatom/commit/316bac55d18cdd24c743e3e6e6eb5645b2ebf5c6))
+* **async:** more mem safety for abortCauseContext ([aa5e29f](https://github.com/kirademiurge/reatom/commit/aa5e29f17d250a20a10476cb2054897feda43628))
+* **async:** prevent ERR_UNHANDLED_REJECTION if the onReject has any handlers ([c66ad56](https://github.com/kirademiurge/reatom/commit/c66ad56e9b4cd536fda93e9cf0cc4a4b862abf91))
+* **async:** prevent unhandled error for abort ([8c64522](https://github.com/kirademiurge/reatom/commit/8c64522bed4d13b35a9f7f354ef6b086b5fbda98))
+* **async:** prevent unhandled exception for reatomAsyncReaction ([4b940ae](https://github.com/kirademiurge/reatom/commit/4b940aee188ccfcb66a137834f5b877b24321e00))
+* **async:** promiseAtomConnection ([cc3b707](https://github.com/kirademiurge/reatom/commit/cc3b707312ba504e8853facf5dce3dbbfafd4bbe))
+* **async:** reatomAsyncReaction AsyncCtxSpy ([c0d014d](https://github.com/kirademiurge/reatom/commit/c0d014d987cf1b3081133b45a146c30e107fb063))
+* **async:** reatomAsyncReaction direct call ([e88b96c](https://github.com/kirademiurge/reatom/commit/e88b96cadfe40ff25432d6bb5d69cbbc20ce67f8))
+* **async:** reatomAsyncReaction withCache ([3bfee9d](https://github.com/kirademiurge/reatom/commit/3bfee9de70e5c645979e81abb6edacde3e8ecac7))
+* **async:** reatomResource small mem leak ([408d916](https://github.com/kirademiurge/reatom/commit/408d9167712cf53dc4381caee3c08f353752d990))
+* **async:** reatomResource: do not drop the cache of an error ([75f54e6](https://github.com/kirademiurge/reatom/commit/75f54e6fe8ab5a46d20846656d908c0779551e81))
+* **async:** retry abort ([7722626](https://github.com/kirademiurge/reatom/commit/7722626effd408f81a6a1864ce12faa43a617581))
+* **async:** shallow equal memo for withStatusesAtom ([8042e18](https://github.com/kirademiurge/reatom/commit/8042e18dc0d38844628c73ba6a7a2bb2beaf4256))
+* **async:** use abortCauseContext ([6133f27](https://github.com/kirademiurge/reatom/commit/6133f275d4cb3529fd744558324e38a621cb66a4))
+* **async:** withAbort + reatomResource ([47d81f7](https://github.com/kirademiurge/reatom/commit/47d81f7aed563720692c4ecbf627d701e4cafe29))
+* **async:** withAbort + withRetry ([d5190ab](https://github.com/kirademiurge/reatom/commit/d5190ab87d57e3925652e07c0741c2938b80cd39))
+* **async:** withCache and withAbort same params ([0466036](https://github.com/kirademiurge/reatom/commit/0466036a2f6cf1dbc3a2f8ce70a5a586825fba85))
+* **async:** withErrorAtom should be computed first ([0c458da](https://github.com/kirademiurge/reatom/commit/0c458da9f1eaf6a3226ca2e57f8ba5360dc7ce9e))
+* **async:** withRetry races ([0abe299](https://github.com/kirademiurge/reatom/commit/0abe29976c319525544efd5fd659e004b76d6edf))
+* **async:** withStatusesAtom and SWR ([b8d2798](https://github.com/kirademiurge/reatom/commit/b8d2798a29b37cbb5f3a441adf4ca332a449ace9))
+* **async:** withStatusesAtom missing ctx ([9c12a7c](https://github.com/kirademiurge/reatom/commit/9c12a7c74dcb2ac5394251e9e0a7fd3c3896d42a))
+
 ## [3.13.6](https://github.com/artalar/reatom/compare/async-v3.13.5...async-v3.13.6) (2024-03-19)
 
 
